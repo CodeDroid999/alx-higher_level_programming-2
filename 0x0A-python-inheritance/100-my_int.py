@@ -14,6 +14,6 @@ class MyInt(int):
         """what was != is now =="""
         return int(self) != other
 
-    def __ne_(self, other):
+    def __ne__(self, other):
         """what was == is now !="""
         return int(self) == other
