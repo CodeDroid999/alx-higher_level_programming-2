@@ -17,7 +17,8 @@ class Square(Rectangle):
             id (int): The identity of the new Square.
         """
         super().__init__(size, size, x, y, id)
-         @property
+
+    @property
     def size(self):
         """Get/set the size of the Square."""
         return self.width
@@ -27,7 +28,7 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
-        def update(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """Update the Square.
         Args:
             *args (ints): New attribute values.
