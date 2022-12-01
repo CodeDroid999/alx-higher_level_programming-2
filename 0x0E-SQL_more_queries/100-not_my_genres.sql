@@ -1,4 +1,4 @@
-- Lists all genres not linked to
+-- Lists all genres not linked to
 -- the show `Dexter`.
 
 SELECT DISTINCT tv_genres.name
